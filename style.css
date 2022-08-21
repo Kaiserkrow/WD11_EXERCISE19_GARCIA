@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 20% auto;
+}
+.container input {
+  margin-bottom: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+}
+.delete {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5rem;
+}
+
+li {
+  width: 100%;
+}
+.flex {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
